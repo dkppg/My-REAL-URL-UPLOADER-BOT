@@ -10,7 +10,7 @@ logging.basicConfig(
                           )
 class Config(object):
 API_ID = int(os.environ.get("API_ID","14604313"))
-API_HASH = os.environ.get("API_HASH","a8ee65e5057b3f05cf9f28b71667203a")
+API_HASH = os.environ.get("API_HASH", "a8ee65e5057b3f05cf9f28b71667203a")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5182948779:AAEPXYNq37qCm3pbxe-0Lhz_vSa8zvdbgKs")
    # Array to store users who are authorized to use the bot
 AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "2067727305").split())
@@ -41,7 +41,7 @@ PROCESS_MAX_TIMEOUT = 3600
 DEF_WATER_MARK_FILE = ""
 DATABASE_URL = os.environ.get("DATABASE_URL",  "mongodb+srv://Dhruvprajapati:dhruvp54321@cluster0.qyekq.mongodb.net/?retryWrites=true&w=majority")
 SESSION_NAME = os.environ.get("SESSION_NAME", "Rename-Bot-0")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001691956031))
 LOGGER = logging
 OWNER_ID = int(os.environ.get("OWNER_ID", "2067727305"))
 UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")                                                                                                                                                                    # Update channel for Force Subscribe                                                                                                                                                               
