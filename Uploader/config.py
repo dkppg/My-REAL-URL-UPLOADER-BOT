@@ -9,7 +9,7 @@ logging.basicConfig(
                           level=logging.INFO
                           )
 class Config(object):
-API_ID = int(os.environ.get("API_ID", "14604313"))
+API_ID = int(os.environ.get("API_ID", 14604313))
 API_HASH = os.environ.get("API_HASH", "a8ee65e5057b3f05cf9f28b71667203a")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5182948779:AAEPXYNq37qCm3pbxe-0Lhz_vSa8zvdbgKs")
    # Array to store users who are authorized to use the bot
